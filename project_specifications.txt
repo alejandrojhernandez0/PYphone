@@ -1,0 +1,23 @@
+Program Design Specifications for PYphone:
+
+This project is based on an interactive GUI program run in a graphical window. This program is called the "PYphone", and it is an interactive graphical program 
+which mimics the functions of a smartphone. The PYphone includes 9 interactive mini-applications, which can be accessed via the buttons on the phone’s menu. 
+Each app has its own function; others are games while others do things like write notes, play sound files, and search websites. 
+
+The major components of this design include the very large class of the PYphone itself, which creates the entire main part of the PYphone GUI 
+including the graphics and buttons on the main menu screen; it also has 2 functioning apps attached to its class, which are the user information and settings apps, 
+since they are better off as part of the PYphone class itself. The other 7 apps have their own individual classes, but they are run on the same graphical window and
+have similar functions which include the building and deletion of the individual GUI as well as the checks for exit button clicks for returning to the main menu on 
+the PYphone. Other classes include the csaudio and wavmod classes necessary for the sound player app (soundplayer.py) and the dieview class necessary for the 
+dice roll app (diceroll.py). All 7 app classes are imported to the large PYphone class, and the entire PYphone class is imported to the main code (main.py) for the 
+program to run. 
+
+The kinds of testing done for this program include major testing on how well the phone buttons work, how well the individual apps run (especially on 
+apps that are games), as well as testing on the most ideal GUI structure and graphical look for each individual app as well. Other testing includes checking 
+if the imported files for the Internet, diceroll, and soundplayer apps are working and correspond with the written code in their classes. Future modifications 
+may include improved versions of the PYphone apps as well as new apps and the ability to create your own application. In addition, other modifications may 
+include a working on/off button which simulates the phone’s screen being turned off and on as well as a working clock that will be shown on the phone. 
+Also, the graphics for the look of the PYphone will be improved as well in these later modifications.
+
+-Alex Hernandez
+COM110
